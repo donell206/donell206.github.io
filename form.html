@@ -1,21 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
-    <title>Background Images</title>
-    <link href="styles.css" rel="stylesheet">
-    <link href="background.css" rel="stylesheet">
-    <style>
-    </style>
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet">
+
 </head>
 
-<body>
-  
-        <div class="copyright">
-            <p>Copyright 2010, Lorem Ipsum Corporation</p>
-        </div>
-    </div>
-</body>
+<section id="ABC">
+<header>
+    <h1>Neem contact met mij op</h1>
+<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">Over</a></li>
+			<li><a href="form.html">Contact</a></li>
+			<li><a href="Cv.html">Mijn Cv</a></li>
+			</ul>
+</nav>
+</header>
 
+
+<div class="container">
+<h1>Contact</h1>
+
+<form action="/action_page.php">
+  <label for="fname">Naam:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Voornam:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br>
+
+  <label for="country">Country</label><br>
+      <select id="country" name="country"value="Doe"><br>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+  <h3>Selecteer de technologie waarvoor u mij wilt inhuren:</h3>
+
+
+    <label for="cars">Kies beneden:</label><br>
+
+    <select id="cars" name="Tech"><br>
+      <option value="volvo">C#</option>
+      <option value="saab">Asp MVC</option>
+      <option value="fiat">SQL</option>
+      <option value="audi">Java</option>
+    </select><br>
+
+  <label for="subject">Subject: </label><br>
+  <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea><br>
+
+  <input type="submit" value="Sturen"><br>
+
+
+</form>
+</div>
+
+<footer>
+<div class="copyright">
+<p>Copyright 2013, The Portofolio of Donnel Gallery</p>
+</div>
+</footer>
+</section>
 </html>
